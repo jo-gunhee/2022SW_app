@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3384615384615385" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/drawable/calculator_button_1.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/drawable/calculator_button_2.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/drawable/ic_launcher_background.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_linear_test_1.xml" value="0.18760469011725292" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_linear_test_2.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_linear_test_3.xml" value="0.33" />
         <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_main.xml" value="0.2601317122593718" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_relative_test_1.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_relative_test_2.xml" value="0.32760416666666664" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_relative_test_3.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/activity_table_test_1.xml" value="0.22" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/actuvuty_car.xml" value="0.3220108695652174" />
         <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/main2.xml" value="0.3351449275362319" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/task_1_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/gun2/AndroidStudioProjects/apple/app/src/main/res/layout/task_1_calculator_solution.xml" value="0.1" />
       </map>
     </option>
   </component>

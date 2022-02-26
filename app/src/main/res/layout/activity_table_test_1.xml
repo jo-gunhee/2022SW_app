@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/teal_700"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#3AD3D2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#73EAE8"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#A9F1F0"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FD8A8A"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FFA6A6"/>
+
+
+
+    </TableRow>
+
+</TableLayout>
