@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.apple01.apple">
 
     <application
@@ -18,6 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Activity_move1" />
+        <activity android:name=".Activity_move2" />
+        <activity android:name=".Research_1" />
+        <activity android:name=".Research_2" />
+        <activity android:name=".Research_3" />
+        <activity android:name=".Research_4" />
+
     </application>
 
 </manifest>

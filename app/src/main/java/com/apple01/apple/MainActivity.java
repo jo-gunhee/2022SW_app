@@ -2,6 +2,7 @@ package com.apple01.apple;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    calculator cal;
+    Calculator cal;
 
     boolean isDot;
     boolean isPreview;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     int size;
     String result;
+    Button btn_move;
 
     Button btn0;
     Button btn1;
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.task_1_calculator);
 
-        cal = new calculator();
+        cal = new Calculator();
         size = 0;
 
         isequal = false;
@@ -74,6 +76,8 @@ public class MainActivity extends AppCompatActivity {
         btn8 = (Button) findViewById(R.id._8);
         btn9 = (Button) findViewById(R.id._9);
 
+        btn_move = (Button) findViewById(R.id.btn_move);
+
         btn_reset = (Button) findViewById(R.id.reset);
         btn_back = (Button) findViewById(R.id.back);
         btn_div_else = (Button) findViewById(R.id.div_else);
@@ -94,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
         btn7.setOnClickListener(numClickListener);
         btn8.setOnClickListener(numClickListener);
         btn9.setOnClickListener(numClickListener);
+
+        btn_move.setOnClickListener(markClickListener);
 
         btn_reset.setOnClickListener(markClickListener);
         btn_back.setOnClickListener(markClickListener);
@@ -184,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.reset:
                     textView.setText("");
                     textView2.setText("");
-                    cal = new calculator();
+                    cal = new Calculator();
                     isPreview = false;
                     break;
 
@@ -221,6 +227,10 @@ public class MainActivity extends AppCompatActivity {
                     isDot = false;
                     isPreview = false;
                     isequal = true;
+                    break;
+                case R.id.btn_move:
+                    Intent intent = new Intent(getApplicationContext(), Research_1.class);
+                    startActivity(intent);
                     break;
             }
 

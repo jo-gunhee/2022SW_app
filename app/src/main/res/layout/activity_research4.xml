@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92B4C3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            android:text="Research Summary"
+            android:textSize="50dp" />
+
+
+        <TextView
+            android:id="@+id/ans_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 1. 가장 좋아하는 동물:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ans_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 2. 가장 좋아하는 연예인: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ans_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 3. 출신 고등학교: "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/ans_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 4. 가장 좋아하는 음식: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ans_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 5. 형제 자매 유무: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ans_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:text="질문 6. 가장 좋아하는 영화: "
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_research4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="300dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6A6A6A"
+            android:text="종료" />
+    </LinearLayout>
+
+</LinearLayout>

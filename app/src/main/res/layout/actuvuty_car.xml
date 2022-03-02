@@ -4,44 +4,39 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#B1C1F6"
-    >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/meter"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_toRightOf="@id/car"
             android:layout_alignTop="@id/car"
-            />
+            android:layout_toRightOf="@id/car" />
 
         <ImageView
             android:id="@+id/car"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:background="@drawable/img_1"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
+            android:background="@drawable/img_1"
 
             />
 
     </RelativeLayout>
 
 
-
     <TextView
         android:id="@+id/text_car"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
         android:layout_marginLeft="20dp"
-        />
+        android:text="0" />
 
 
     <LinearLayout
@@ -49,27 +44,34 @@
         android:layout_height="match_parent">
 
 
-
-
         <Button
             android:id="@+id/btn_car2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#4CAF50"
-            android:text="Up Speed +"
-            android:layout_margin="5dp"
-            />
+            android:text="Up Speed +" />
 
         <Button
             android:id="@+id/btn_car3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:backgroundTint="#FF5722"
-            android:text="Down Speed -"
+            android:text="Down Speed -" />
+
+
+        <Button
+            android:id="@+id/btn_move2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_margin="5dp"
-            />
+            android:layout_weight="1"
+            android:backgroundTint="#6A6A6A"
+            android:text="move" />
 
 
     </LinearLayout>
