@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/gg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="젠가"
+                android:textColor="#323D5C"
+                android:textSize="70dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="2"
+            android:background="@drawable/project_rule_background1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="규칙"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="1. 나무 블록으로 탑을 만든다. 3개의 블록이 한 층이 된다."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="#858585"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="2. 자기 차례가 되면, 탑에서 맨 위층을 제외한 블록들 중 하나를 뽑아 탑 꼭대기에 쌓는다. "
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="#858585"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="3. 블록을 쌓을 때는, 원래의 구조와 같이 3개가 한 층이 되도록 쌓는다. 예를 들어 꼭대기에 1개의 블록만 놓여있는데 그 위에 나무 블록을 놓을 수는 없다."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="3dp"
+                android:background="#858585"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="4. 누군가의 차례에 탑이 쓰러지면, 쓰러뜨린 사람이 진다. 이제 설거지든 청소든 일상의 궂은 일은 그 사람이 하면 된다."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:weightSum="10">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="2"
+                android:background="@drawable/arrowleft" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="25dp"
+                android:padding="2dp"
+                android:text="젠가 시작"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:background="@drawable/target" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
